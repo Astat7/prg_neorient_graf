@@ -24,7 +24,6 @@ def getPath(from_point: int, to_point: int, matrix: list, previous_lenght=0, fir
           answers.append(x)
         
     if first == True:
-      print(answers)
       return min(answers)
 
 
